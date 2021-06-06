@@ -1,14 +1,14 @@
-import './App.css';
-import Header from './components/Header';
+import styles from './App.module.css';
+import Content from './components/Content';
 import Navbar from './components/Navbar';
-import Profile from './components/Profile';
+import News from './components/News';
 
 const App = () => {
   return (
-    <div className="app-wrapper">
-      <Header />
+    <div className={styles.app_wrapper}>
       <Navbar />
-      <Profile />
+      <Content />
+      <News />
     </div>
   );
 }

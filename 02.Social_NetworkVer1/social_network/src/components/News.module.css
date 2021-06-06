@@ -1,0 +1,8 @@
+.news {
+    grid-area: news;
+    background-color: aquamarine;
+  }
+  
+  .news img {
+    width: 2rem;
+  }

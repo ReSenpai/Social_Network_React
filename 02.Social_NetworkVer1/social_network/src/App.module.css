@@ -1,0 +1,9 @@
+.app_wrapper {
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+
+  grid-template-areas:
+  "nav content news";
+  grid-template-columns: 1fr 3fr 1fr;
+}
