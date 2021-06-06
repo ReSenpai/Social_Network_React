@@ -1,10 +1,13 @@
 import styles from './Post.module.css'
 
-const Post = () => {
+const Post = (props) => {
   return (
     <div>
       <img src="" alt="Avatar" />
-      <p>Сообщение</p>
+      <p>{props.message}</p>
+      <div>
+        {props.like} likes
+      </div>
     </div>
   );
 }

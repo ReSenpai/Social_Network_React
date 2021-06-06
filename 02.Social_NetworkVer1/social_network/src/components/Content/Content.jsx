@@ -1,7 +1,7 @@
 import styles from './Content.module.css'
 import Myposts from './Myposts/Myposts'
 
-const Content = () => {
+const Content = (props) => {
   return (
     <main className={styles.content}>
       Content
