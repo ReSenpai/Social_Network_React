@@ -1,9 +1,13 @@
 import styles from './Navbar.module.css'
 
 const Navbar = () => {
-  return <nav className={styles.nav}>
+  return (
+  <nav className={styles.nav}>
     <div>
-      <a>Logo</a>
+      <img src="" alt="Logo" />
+    </div>
+    <div>
+      <a>Main</a>
     </div>
     <div>
       <a>Profile</a>
@@ -18,6 +22,7 @@ const Navbar = () => {
       Avatar + Descrip
     </div>
   </nav>
+  );
 }
 
 export default Navbar;
