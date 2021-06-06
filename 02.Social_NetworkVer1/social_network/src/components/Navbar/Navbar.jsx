@@ -7,16 +7,16 @@ const Navbar = (props) => {
       <img src="" alt="Logo" />
     </div>
     <div>
-      <a>Main</a>
+      <a href='/Content'>Main</a>
     </div>
     <div>
-      <a>Profile</a>
+      <a href='/Profile'>Profile</a>
     </div>
     <div>
-      <a>Messages</a>
+      <a href='/Dialogs'>Messages</a>
     </div>
     <div>
-      <a>Settings</a>
+      <a href='/Settings'>Settings</a>
     </div>
     <div>
       Avatar + Descrip
