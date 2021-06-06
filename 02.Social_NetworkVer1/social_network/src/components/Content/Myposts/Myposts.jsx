@@ -9,8 +9,8 @@ const Myposts = (props) => {
         <textarea name="" id="" cols="30" rows="10">Запись</textarea>
         <button>Добавить запись</button>
       </div>
-      <Post message='Hi! How are you?' like='5'/>
-      <Post message='It is my first post' like='7'/>
+      <Post message='Hi! How are you?' likeCount='5'/>
+      <Post message='It is my first post' likeCount='7'/>
     </div>
   );
 }
